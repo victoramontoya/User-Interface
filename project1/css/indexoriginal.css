@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+     text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+     text-decoration: none;
+}
+
+nav li {
+    float: left;
+    margin-bottom: 1%;
+    margin-left: 8.61%;
+    margin-top: 1%;
+    color:darkgrey;
+    text-decoration: none;
+}
+nav li a{
+    text-decoration: none;
+}
+
+.logo {
+float: right;
+    margin-bottom: 1%;
+    margin-left: 6%;
+    margin-top: 1%;
+    margin-right: 6%
+ 
+}
+
+.cta{
+    float: left;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    object-position: center;
+
+
+}
+.cta-text{
+ float: left;
+    font-size: 75pt;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 0%;
+    border: 0px;
+    padding: 0px;
+
+}
+
+button{
+   
+    font-size: 12pt;
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+.cta-image{
+object-position: center;
+ margin-bottom: 1%;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 15%;
+    
+}
+
+.main-content{
+ float: left;
+    width: 100%;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: ;
+
+    padding: 1%;
+    object-position: center;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+}
+.top-content .text-content{
+ float: left;
+    font-size: 19pt;
+    width: 50%;
+    border: none;
+    padding: 45px;
+    margin: 0px;
+    margin-left: 0%;
+    
+}
+.middle-img {
+    width: 100%;
+    float: left;
+    border: none;
+    padding: 20px;
+   
+}
+
+
+
+.bottom-content .text-content{
+ float: left;
+    width: 33%;
+    font-size: 19pt;
+    border: none;
+    padding: none;
+    margin: 1px;
+    margin-left: 0%;
+    padding: 45px;
+}
+.contact{
+    float: left;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 40px;
+    font-size: 19pt;
+    letter-spacing: 1px;
+    
+}
+
+footer{
+    float: left;
+    object-position: center;
+    margin-bottom: 7%;
+    margin-top: 0;
+    font-size: 12pt;
+    text-align: center;
+     width: 100%;
+}
+    
+}
